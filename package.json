@@ -2,7 +2,7 @@
   "name": "react-rightbar",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib",
     "test": "echo \"Error: no test specified\" && exit 1"

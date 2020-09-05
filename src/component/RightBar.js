@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/RightBar.scss';
+import ReactDOM from "react-dom";
 import Reservation from './img/icon-reservation.png';
 import Img_ai from './img/img_ai.png';
 import Img_mb from './img/img_mb.png';
@@ -36,6 +37,7 @@ class RightBar extends React.Component{
 					<p>{item.txt}</p>
 				   </li>);
 		})
+
 		return(
 			<div className="RightBar">
 				<ul>
